@@ -1,0 +1,184 @@
+/* * {
+    outline: 1px solid greenyellow;
+} */
+
+body {
+    background-color: rgb(255, 251, 245);
+    margin: 0;
+}
+
+.logo {
+    font-family: Georgia, Garamond, Times, serif;
+    color: rgb(239, 90, 90);
+    background-color: white;
+    text-decoration: underline;
+    padding: 0rem;
+    margin: 0rem;
+    /* outline: 1px solid black; */
+}
+
+#logo {
+    width: 15%;
+    background-color: white;
+    height: 4rem;
+    font-size: 3.5rem;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    float: left;
+    text-align: center;
+    /* outline: 1px solid blue; */
+}
+
+header .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 1.75rem;
+    float: left;
+    /* outline: 1px solid violet; */
+    width: 50%;
+    padding: 2rem 0rem;
+}
+
+#search {
+    float: right;
+    padding: 2rem 1rem;
+}
+
+#search input {
+    height: 1.5rem;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+header {
+    background-color: rgb(239, 90, 90);
+    height: 9rem;
+    margin: 0px 0px 0px 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 3rem;
+    padding: 0rem;
+    /* outline: 1px solid yellow; */
+    float: right;
+}
+
+.navbar ul {
+    /* outline: 1px solid greenyellow; */
+    width: 80%;
+    height: 3rem;
+    margin: 0rem 0rem;
+    float: right;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0rem 0rem;
+    width: 12%;
+    height: 100%;
+    /* outline: 1px solid black;  */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    /* outline: 1px solid hotpink; */
+}
+
+.navbar ul li a div:hover {
+    background-color: rgb(248, 126, 126);
+}
+
+.navbar ul li a div {
+    display: inline-block;
+    margin: 0rem 0rem;
+    padding: 1rem 0rem 0.5rem 0rem;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    /* outline: 1px solid turquoise; */
+}
+
+.sidebar {
+    background-color: gray;
+    float: left;
+    width: 20%;
+    padding-bottom: 10rem;
+}
+
+.sidebar ul {
+    color: rgb(255, 251, 245);
+    padding: 0.5rem 0rem;
+    /* outline: 1px solid yellow; */
+}
+
+.sidebar ul li {
+    font-family: Verdana, sans-serif;
+    font-size: 1.25rem;
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    /* outline: 1px solid blueviolet; */
+}
+
+.sidebar ul li:hover {
+    background-color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+.content {
+    background-color: rgb(255, 251, 245);
+    float: left;
+    width: 74.5%;
+    padding: 2rem;
+}
+
+.content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.content p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(99, 99, 99);
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem 2rem 0rem;
+    /* outline: 1px solid yellowgreen; */
+}
+
+footer .logo {
+    /* display: inline-block; */
+    width: 5%;
+    margin-left: 47.5%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+}
+
+footer .info, #index-link {
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0rem;
+}
+
+#index-link a {
+    text-decoration: none;
+    color: rgb(239, 90, 90);
+    background-color: white;
+}
+
+div.message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: yellow;
+  }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <style>
+        .navbar ul li a div#make {
+            background-color: rgb(255, 251, 245);
+            color: rgb(239, 90, 90);
+        }
+
+        .sidebar ul li#col {
+            background-color: rgb(99, 99, 99);
+        }
+
+        .gallery-itm {
+            width: 30%;
+            float: left;
+            margin: 5px;
+            border: 1px solid rgb(196, 196, 196);
+            border-radius: 5px;
+        }
+
+        .gallery-itm:hover {
+            border: 1px solid rgb(239, 90, 90);
+        }
+
+        .gallery-itm img {
+            width: 100%;
+            height: auto;
+        }
+
+        .description {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.25rem;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+    <title>Cook! - Make</title>
+</head>
+
+<body>
+    <header>
+        <a href="./assign04.html" id="logo">
+            <div class="logo">Cook!</div>
+        </a>
+        <div id="search"><input type="text" value="Search"></div>
+        <div class="title">Make - Recipes From All Around the World!</div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./assign04.html">
+                        <div id="make">Make</div>
+                    </a></li>
+                <li><a href="./assign04_2.html">
+                        <div id="shop">Shop</div>
+                    </a></li>
+                <li><a href="./assign04.html">
+                        <div id="watch">Watch</div>
+                    </a></li>
+                <li><a href="./assign04.html">
+                        <div id="forum">Forum</div>
+                    </a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li id="col">Colombia</li>
+            <li id="arg">Argentina</li>
+            <li id="mex">Mexico</li>
+            <li id="spa">Spain</li>
+            <li id="fr">France</li>
+            <li>Peru</li>
+            <li>Italy</li>
+            <li>Germany</li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Colombian Cuisine</h1>
+        <p>Colombian cuisine is a compound of the culinary traditions of the six main regions within the country
+            (Pacific, Amazonian, Andean, Orinoco, Caribbean, and Insular). Colombian cuisine varies regionally and is
+            particularly influenced by Indigenous Colombian, Spanish, and African cuisines, with slight Arab
+            influence in some regions. Furthermore, being one of the most biodiverse countries in the world, Colombia
+            has one of the widest variety of available ingredients depending on the region. </p>
+        <p>
+            Click in the pictures below to see the complete recipes.
+        </p>
+        <div class="gallery">
+            <div class="gallery-itm">
+                <a href="./assign04.html"><img src="./colombia/ajiaco.png" alt="A dish with Ajiaco" width="600"
+                        height="400"></a>
+                <div class="description">Ajiaco Santafereño</div>
+            </div>
+            <div class="gallery-itm">
+                <a href="./assign04.html"><img src="./colombia/bandeja-paisa.png" alt="Bandeja Paisa" width="600"
+                        height="400"></a>
+                <div class="description">Bandeja Paisa</div>
+            </div>
+            <div class="gallery-itm">
+                <a href="./assign04.html"><img src="./colombia/arroz-com-pollo.png" alt="Arroz con Pollo" width="600"
+                        height="400"></a>
+                <div class="description">Arroz con Pollo</div>
+            </div>
+            <div class="gallery-itm">
+                <a href="./assign04.html"><img src="./colombia/arroz-con-leche.png" alt="Arroz con Leche" width="600"
+                        height="400"></a>
+                <div class="description">Arroz con Leche</div>
+            </div>
+            <div class="gallery-itm">
+                <a href="./assign04.html"><img src="./colombia/changua.png" alt="A dish with Changua" width="600"
+                        height="400"></a>
+                <div class="description">Changua</div>
+            </div>
+        </div>
+        <div class="message">
+            The two pages are "Make" and "Shop" in the navigation bar
+        </div>
+    </div>
+    <footer>
+        <div class="logo">Cook!</div>
+        <div class="info">©2022 Made by Sergio Daza from Bogotá, Colombia</div>
+        <div id="index-link">For the <strong>assignments index </strong>click <a href="../index.html">here.</a></div>
+    </footer>
+</body>
+
+</html>
